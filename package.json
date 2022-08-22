@@ -1,0 +1,23 @@
+{
+  "name": "link-node-proxy",
+  "version": "1.0.1",
+  "description": "node实现代理",
+  "main": "./src/index.js",
+  "scripts": {
+    "server": "nodemon ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@codeup.aliyun.com:link/frontend/link-assets/tools/link-node-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.18.1",
+    "http-proxy-middleware": "^2.0.6",
+    "nodemon": "^2.0.19"
+  }
+}
